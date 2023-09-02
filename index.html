@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <!-- Remixicon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive-Travel</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="nav__logo">Ahmet Gezi</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">AnaSayfa</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Hakkında</a>
+            </li>
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">Popüler</a>
+            </li>
+            <li class="nav__item">
+              <a href="#explore" class="nav__link">Keşfet</a>
+            </li>
+          </ul>
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-fill"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <main class="main">
+      <!-- home -->
+      <section class="home section" id="home">
+        <img src="./img/home-bg.jpg" alt="home image" class="home__bg" />
+        <div class="home__shadow"></div>
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h3 class="home__subtitle">Gezimize Hoşgeldiniz</h3>
+            <h1 class="home__title">
+              Dünyayı <br />
+              Keşfet
+            </h1>
+
+            <p class="home__description">
+              Dünyayı keşfeden gezileri yaşayın, denizleri, adaları, dağları ve
+              çok daha fazlasını keşfedin, seyahatinizi şimdi alın.
+            </p>
+            <a href="#" class="button">
+              Yolculuğa Başlayın <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="home__cards grid">
+            <article class="home__card">
+              <img
+                src="./img/home-trees.jpg"
+                alt="home image"
+                class="home__card-img"
+              />
+              <h3 class="home__card-title">Hırvatistan</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+
+            <article class="home__card">
+              <img
+                src="./img/home-lake.jpg"
+                alt="home image"
+                class="home__card-img"
+              />
+              <h3 class="home__card-title">İzlanda</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+
+            <article class="home__card">
+              <img
+                src="./img/home-mountain.jpg"
+                alt="home image"
+                class="home__card-img"
+              />
+              <h3 class="home__card-title">İtalya</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+
+            <article class="home__card">
+              <img
+                src="./img/home-beach.jpg"
+                alt="home image"
+                class="home__card-img"
+              />
+              <h3 class="home__card-title">İspanya</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">
+              Seyahat Hakkında <br />
+              Daha Fazla Bilgi
+            </h2>
+            <p class="about__description">
+              Dünyadaki tüm seyahatler herkes için büyük bir zevk ve
+              mutluluktur, dünyayı gezerken manzaraların tadını çıkarın. Güvenle
+              ve endişelenmeden seyahat edin, seyahatinizi alın ve dünyanın
+              harikalarını keşfedin.
+            </p>
+            <a href="#" class="button">
+              Geziyi Keşfet <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="about__image">
+            <img
+              src="./img/about-beach.jpg"
+              alt="about image"
+              class="about__img"
+            />
+            <div class="about__shadow"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- popular -->
+      <section class="popular section" id="popular">
+        <h2 class="section__title">
+          Dünyanın Güzelliğin <br />
+          Tadını Çıkarın
+        </h2>
+        <div class="popular__container container grid">
+          <article class="popular__card">
+            <div class="popular__image">
+              <img
+                src="./img/popular-mountain.jpg"
+                alt="popular image"
+                class="popular__img"
+              />
+              <div class="popular__shadow"></div>
+            </div>
+            <h2 class="popular__title">Logan Dağı</h2>
+            <div class="popular__location">
+              <i class="ri-map-pin-line"></i>
+              <span>Kanada</span>
+            </div>
+          </article>
+
+          <article class="popular__card">
+            <div class="popular__image">
+              <img
+                src="./img/popular-forest.jpg"
+                alt="popular image"
+                class="popular__img"
+              />
+              <div class="popular__shadow"></div>
+            </div>
+            <h2 class="popular__title">Başak Ormanı</h2>
+            <div class="popular__location">
+              <i class="ri-map-pin-line"></i>
+              <span>İrlanda</span>
+            </div>
+          </article>
+
+          <article class="popular__card">
+            <div class="popular__image">
+              <img
+                src="./img/popular-lake.jpg"
+                alt="popular image"
+                class="popular__img"
+              />
+              <div class="popular__shadow"></div>
+            </div>
+            <h2 class="popular__title">Garda Gölü</h2>
+            <div class="popular__location">
+              <i class="ri-map-pin-line"></i>
+              <span>İtalya</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- EXPLORE -->
+      <section class="explore section" id="explore">
+        <div class="explore__container">
+          <div class="explore__image">
+            <img
+              src="./img/explore-beach.jpg"
+              alt="explore image"
+              class="explore__img"
+            />
+            <div class="explore__shadow"></div>
+          </div>
+
+          <div class="explore__content container grid">
+            <div class="explore__data">
+              <h2 class="section__title">
+                En iyi Harikaları<br />
+                Keşfedin
+              </h2>
+              <p class="explore__description">
+                Dünyayı gezerken adalar ve vadiler gibi harikaları keşfetmek,
+                seyahat ederken en büyük deneyimlerden biridir, size uyum ve
+                huzur sunar ve bunun tadını büyük bir rahatlıkla
+                çıkarabilirsiniz.
+              </p>
+            </div>
+
+            <div class="explore__user">
+              <img
+                src="./img/avatar.jpeg"
+                alt="explore image"
+                class="explore__perfil"
+              />
+              <span class="explore__name">Ahmet Murat ÜNSAL</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- JOİN -->
+
+      <section class="join section">
+        <div class="join__container container grid">
+          <div class="join__data">
+            <h2 class="section__title">
+              Yolculuğunuz <br />
+              Burada Başlıyor.
+            </h2>
+
+            <p class="join__description">
+              En güncel gezilerimizden haberdar olun.
+            </p>
+
+            <form class="join__form">
+              <input
+                type="email"
+                placeholder="Emailiniz giriniz."
+                class="join__input"
+              />
+              <button class="join__button button">
+                Haber bültenimize abone olun <i class="ri-arrow-right-line"></i>
+              </button>
+            </form>
+          </div>
+
+          <div class="join__image">
+            <img
+              src="./img/join-island.jpg"
+              alt="join image"
+              class="join__img"
+            />
+            <div class="join__shadow"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer__container container grid">
+          <div class="footer__content grid">
+            <div>
+              <a href="#" class="footer__logo">Ahmet Gezi</a>
+              <p class="footer__description">
+                Sınırsız Dünyayı <br />
+                bizimle gezin ve keşfedin.
+              </p>
+            </div>
+            <div class="footer__data grid">
+              <div>
+                <h3 class="footer__title">Hakkında</h3>
+                <ul class="footer_links">
+                  <li>
+                    <a href="#" class="footer__link">Hakkımızda</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="footer__link">Özellikler</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="footer__link">Haberler & Blog</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 class="footer__title">Şirketimiz</h3>
+                <ul class="footer_links">
+                  <li>
+                    <a href="#" class="footer__link">SSS</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="footer__link">Tarihçemiz</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="footer__link">Referanslar</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 class="footer__title">İletişim</h3>
+                <ul class="footer_links">
+                  <li>
+                    <a href="#" class="footer__link">Çağrı Merkezi</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="footer__link">Destek Merkezi</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="footer__link">Bize ulaşın</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 class="footer__title">Destek</h3>
+                <ul class="footer_links">
+                  <li>
+                    <a href="#" class="footer__link">Gizlilik Politikası</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="footer__link">Şartlar & Hi̇zmetler</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="footer__link">Ödemeler</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer__group">
+            <div class="footer__social">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="ri-facebook-line"></i
+              ></a>
+
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="ri-instagram-line"></i
+              ></a>
+
+              <a
+                href="https://www.x.com"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="ri-twitter-line"></i
+              ></a>
+
+              <a
+                href="https://www.youtube.com"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="ri-youtube-line"></i
+              ></a>
+            </div>
+
+            <span class="footer__copy">
+              &#169; Copyright ByAhmet-@ogretmenbabis. All rights reserved
+            </span>
+          </div>
+        </div>
+      </footer>
+
+      <!-- scroll up -->
+      <a href="#" class="scrollup" id="scroll-up"
+        ><i class="ri-arrow-up-line"></i
+      ></a>
+    </main>
+    <!-- scrollreveal -->
+    <script src="./scrollreveal.min.js"></script>
+
+    <!-- main js -->
+    <script src="main.js"></script>
+  </body>
+</html>
